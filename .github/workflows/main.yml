@@ -1,21 +1,27 @@
+name: player update scraper
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
   schedule:
-    - cron: '0 9 * * *'  # Runs daily at 9:00 AM UTC
+    - cron: "0 9 * * *"
+  workflow_dispatch:
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
+    continue-on-error: true
+    name: player scraper
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-      - name: Install Dependencies
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ghactions
+      - name: Install dependencies
         run: yarn install; yarn upg; yarn dev
-      - name: Commit and push changes
+
+      - name: psuh
         run: |
+          git add .
           git config --global user.name 'Your Name'
           git config --global user.email 'your-username@users.noreply.github.com'
-          git add .
-          git commit -m "daily update"
+          git commit -am "daily update"
           git push
