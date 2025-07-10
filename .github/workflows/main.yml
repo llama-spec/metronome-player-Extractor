@@ -14,11 +14,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ghactions
+          ref: main
       - name: Install dependencies
         run: yarn install; yarn upg; yarn dev
 
-      - name: psuh
+      - name: push
         run: |
           git add .
           git config --global user.name 'Your Name'
