@@ -9,7 +9,7 @@
     "dev": "npx tsc; node public/index.js",
     "dep": "yarn upgrade-interactive",
     "upg": "yarn upgrade youtubei.js --latest",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
