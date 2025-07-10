@@ -1,7 +1,7 @@
 {
-  "name": "express-typescript-boilerplate",
+  "name": "metronome-player-extractor",
   "version": "1.0.0",
-  "description": "An Express server template written in TypeScript",
+  "description": "An Express server template written in TypeScript stolen from someone else",
   "main": "index.ts",
   "scripts": {
     "build": "npx tsc",
@@ -13,14 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phamduylong/express-typescript-template.git"
+    "url": "git+https://github.com/llama-spec/metronome-player-Extractor.git"
   },
   "author": "longph",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/phamduylong/express-typescript-template/issues"
-  },
-  "homepage": "https://github.com/phamduylong/express-typescript-template#readme",
   "dependencies": {
     "express": "^4.18.2",
     "typescript": "^5.8.2",
