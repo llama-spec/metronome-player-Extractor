@@ -1,7 +1,7 @@
 name: player update scraper
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 jobs:
   update:
