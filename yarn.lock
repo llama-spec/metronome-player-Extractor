@@ -404,6 +404,11 @@ express@^4.18.2:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
+fflate@^0.8.2:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.8.3.tgz#bc27d8eb30343d4d512abb03480202ce65d825fc"
+  integrity sha512-tbZNuJrLwGUp3zshBtdy4W+ORxZuIh8a5ilyIEQDC5rY1f3U20JMry0Ll3WBzU58EZKsEuJFXhb5gwv8CsPvgA==
+
 fill-range@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.1.1.tgz#44265d3cac07e3ea7dc247516380643754a05292"
@@ -910,12 +915,13 @@ yn@3.1.1:
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 
-youtubei.js@^17.0.1:
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-17.0.1.tgz#83bb0afded5b1c2e69fffbed9beefa7c8d2fcec8"
-  integrity sha512-1lO4b8UqMDzE0oh2qEGzbBOd4UYRdxn/4PdpRM7BGTHxM6ddsEsKZTu90jp8V9FHVgC2h1UirQyqoqLiKwl+Zg==
+youtubei.js@^17.1.0:
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-17.1.0.tgz#539d5fd79c4452fa0d21058c027e650b7188ab4b"
+  integrity sha512-3iwxjao9VmlqxhxSl81v6qe/tLVsYDhAQp06dHbeTVBN3F/2jqWxpZNofgn6VOkSkFnLFdDfVn5ypVXIX6WsHw==
   dependencies:
     "@bufbuild/protobuf" "^2.0.0"
+    fflate "^0.8.2"
     meriyah "^6.1.4"
 
 zustand@^5.0.3:
