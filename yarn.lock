@@ -915,10 +915,10 @@ yn@3.1.1:
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 
-youtubei.js@^17.1.0:
-  version "17.1.0"
-  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-17.1.0.tgz#539d5fd79c4452fa0d21058c027e650b7188ab4b"
-  integrity sha512-3iwxjao9VmlqxhxSl81v6qe/tLVsYDhAQp06dHbeTVBN3F/2jqWxpZNofgn6VOkSkFnLFdDfVn5ypVXIX6WsHw==
+youtubei.js@^17.2.0:
+  version "17.2.0"
+  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-17.2.0.tgz#a9fe7834dcc94f833717d7327be5bf0bf008cf0a"
+  integrity sha512-XLNsgRKO1h7t4i9tIMWSQSeWdD7Ujkk5v1m5YCaumaHMhu/xuLqtO3M0Hq7CXNup9HlJ1NGrT1Y+HLIHnL6Ujg==
   dependencies:
     "@bufbuild/protobuf" "^2.0.0"
     fflate "^0.8.2"
