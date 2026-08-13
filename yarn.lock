@@ -579,10 +579,10 @@ merge-descriptors@1.0.3:
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.3.tgz#d80319a65f3c7935351e5cfdac8f9318504dbed5"
   integrity sha512-gaNvAS7TZ897/rVaZ0nMtAyxNyi/pdbjbAwUpFQpN70GqnVfOiXpeUUMKRBmzXaSQ8DdTX4/0ms62r2K+hE6mQ==
 
-meriyah@^6.1.4:
-  version "6.1.4"
-  resolved "https://registry.yarnpkg.com/meriyah/-/meriyah-6.1.4.tgz#2d49a8934fbcd9205c20564579c3560d9b1e077b"
-  integrity sha512-Sz8FzjzI0kN13GK/6MVEsVzMZEPvOhnmmI1lU5+/1cGOiK3QUahntrNNtdVeihrO7t9JpoH75iMNXg6R6uWflQ==
+meriyah@^7.3.1:
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/meriyah/-/meriyah-7.3.1.tgz#f03c1b5a050fed4a9aa1a0b38018fce917d9de82"
+  integrity sha512-642iQ3T0ZBXw+qrFo9m50CsdzSz9Tn0HtSKN3WxWlTXfcHUZwunxU4gMoMDIQzzOhwtkLOLeBs9GXs7NwDI2nA==
 
 methods@~1.1.2:
   version "1.1.2"
@@ -915,14 +915,14 @@ yn@3.1.1:
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 
-youtubei.js@^17.2.0:
-  version "17.2.0"
-  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-17.2.0.tgz#a9fe7834dcc94f833717d7327be5bf0bf008cf0a"
-  integrity sha512-XLNsgRKO1h7t4i9tIMWSQSeWdD7Ujkk5v1m5YCaumaHMhu/xuLqtO3M0Hq7CXNup9HlJ1NGrT1Y+HLIHnL6Ujg==
+youtubei.js@^18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/youtubei.js/-/youtubei.js-18.0.0.tgz#f14876111984e79208339c85b66ca03f55401d0e"
+  integrity sha512-7Tztl5QzNL4nIhiAxa4P/0C8cDDsUe0j4iaUeNiaA+ZfSe/l+HkHxXyoWlQXNW7IPi2n6AW23ysVMJLDh+AwWQ==
   dependencies:
     "@bufbuild/protobuf" "^2.0.0"
     fflate "^0.8.2"
-    meriyah "^6.1.4"
+    meriyah "^7.3.1"
 
 zustand@^5.0.3:
   version "5.0.6"
